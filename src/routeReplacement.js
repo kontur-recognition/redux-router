@@ -1,5 +1,5 @@
 import { applyMiddleware, compose } from 'redux';
-import { createRoutes } from 'react-router';
+import { createRoutes } from 'react-router/lib/RouteUtils';
 import replaceRoutesMiddleware from './replaceRoutesMiddleware';
 
 export default function routeReplacement(next) {

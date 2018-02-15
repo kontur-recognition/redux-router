@@ -1,5 +1,6 @@
 import { applyMiddleware } from 'redux';
-import { useRouterHistory, createRoutes } from 'react-router';
+import { createRoutes } from 'react-router/lib/RouteUtils';
+import { useRouterHistory } from 'react-router';
 import createTransitionManager from 'react-router/lib/createTransitionManager' ;
 import historyMiddleware from './historyMiddleware';
 import { ROUTER_STATE_SELECTOR } from './constants';
